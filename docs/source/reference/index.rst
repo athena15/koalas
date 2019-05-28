@@ -8,4 +8,6 @@ API Reference
     general_functions
     series
     frame
+    indexing
     groupby
+    ml

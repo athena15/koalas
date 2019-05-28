@@ -26,6 +26,7 @@ Attributes and underlying data
 
    DataFrame.dtypes
    DataFrame.shape
+   DataFrame.size
 
 Conversion
 ~~~~~~~~~~
@@ -46,6 +47,7 @@ Indexing, iteration
 
    DataFrame.head
    DataFrame.loc
+   DataFrame.iloc
    DataFrame.iteritems
    DataFrame.get
 
@@ -68,6 +70,7 @@ Computations / Descriptive Stats
    DataFrame.clip
    DataFrame.corr
    DataFrame.count
+   DataFrame.describe
    DataFrame.kurt
    DataFrame.kurtosis
    DataFrame.max
@@ -105,6 +108,7 @@ Reshaping, sorting, transposing
 .. autosummary::
    :toctree: api/
 
+   DataFrame.sort_index
    DataFrame.sort_values
 
 Combining / joining / merging
@@ -113,6 +117,7 @@ Combining / joining / merging
    :toctree: api/
 
    DataFrame.assign
+   DataFrame.merge
 
 Serialization / IO / Conversion
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -130,4 +135,5 @@ Serialization / IO / Conversion
    DataFrame.to_dict
    DataFrame.to_excel
    DataFrame.to_clipboard
+   DataFrame.to_records
    DataFrame.to_latex
